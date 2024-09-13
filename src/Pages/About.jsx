@@ -1,7 +1,12 @@
+import AboutHero from "../about/AboutHero";
+import AboutText from "../about/AboutText";
+import Footer from "../home/Footer"
 const About = () => {
     return ( 
         <main>
-            <h2 className="text-slate-500">About</h2>
+            <AboutHero />
+            <AboutText />
+            <Footer />
         </main>
      );
 }
