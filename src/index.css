@@ -21,7 +21,7 @@
   background:linear-gradient(to right, rgba(41, 50, 68, 0.575) 20%, rgba(16, 38, 85, 0.616)),
   url('./assets/images/Dr Ekuwem.jpg') no-repeat;
   background-size:cover ;
-  background-position: left;
+  background-position: center;
 }
 
 footer{
