@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.partners{
+  background: 
+  linear-gradient(rgba(39, 85, 185, 0.911), rgba(10, 50, 136, 0.836)),
+   url('./assets/images/communication-tower.jpg');
+   background-position: center;
+   background-attachment: fixed;
+   background-size: contain;
+}
+
+footer{
+  background: 
+  linear-gradient(rgba(12, 33, 77, 0.911), rgba(4, 34, 99, 0.836)),
+   url('./assets/images/footer-image.jpg') no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: #fff;
+}
