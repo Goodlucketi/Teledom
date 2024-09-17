@@ -1,5 +1,5 @@
 import AboutHero from "../about/AboutHero";
-import SolutionsImg from "../assets/images/about11.png"
+import SolutionsImg from "../assets/images/about22.png"
 import SolutionsTxt from "../solutions/SolutionsTxt";
 import SolnContent from "../solutions/SolnContent";
 import Footer from "../home/Footer";
