@@ -3,10 +3,12 @@ import AboutText from "../about/AboutText";
 import MeetCeo from "../about/meet-ceo";
 import Button from "../about/button";
 import Footer from "../home/Footer"
+import heroImage from "../assets/images/about33.png"
+
 const About = () => {
     return ( 
         <main>
-            <AboutHero />
+            <AboutHero title={'About Us'} image={heroImage}/>
             <AboutText />
             <MeetCeo />
             <div className="moreInfo p-10 text-center text-white shadow-md bg-white my-10">
