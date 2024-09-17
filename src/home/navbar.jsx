@@ -17,8 +17,8 @@ const Navbar = () => {
                         <li className="p-2 mx-2 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/">Home</Link> </li>
                         <li className="p-2 mx-2 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/about">About Us</Link>  </li>
                         <li className="p-2 mx-2 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/solutions">Solutions</Link> </li>
-                        <li className="p-2 mx-2 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/portfolio">Port Folio</Link> </li>
-                        <li className="p-2 mx-2 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/careers">Careers</Link> </li>
+                        {/* <li className="p-2 mx-2 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/portfolio">Port Folio</Link> </li> */}
+                        {/* <li className="p-2 mx-2 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/careers">Careers</Link> </li> */}
                         <li className="p-2 mx-2 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/client">Clientele</Link> </li>
                         <li className="p-2 mx-2 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/contact">Contact Us</Link> </li>
                     </ul>
