@@ -4,6 +4,7 @@ import About from "./Pages/About"
 import Navbar from './home/navbar';
 import Solutions from './Pages/Solutions';
 import Clientele from './Pages/Clientele';
+import Contact from './Pages/Contact';
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/solutions' element={<Solutions />} />
         <Route path='/client' element={<Clientele />}/>
+        <Route path='/contact' element={<Contact />}/>
       </Routes>
     </Router>
   )

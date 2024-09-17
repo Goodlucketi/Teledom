@@ -3,7 +3,7 @@ import Hero from "../home/Hero";
 import Services from "../home/Service";
 import About from "../home/About";
 import Partners from "../home/Partners";
-import Contact from "../home/Contact";
+import ContactForm from "../home/ContactForm";
 import Footer from "../home/Footer";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
             <Services />
             <About />
             <Partners />
-            <Contact />
+            <ContactForm />
             <Footer />
         </main>
      );
