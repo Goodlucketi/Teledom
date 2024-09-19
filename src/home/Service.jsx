@@ -11,7 +11,7 @@ import snos from '../assets/images/snos_flyer.png'
 const Services = () => {
     return ( 
         <main className='w-11/12 mx-auto'>
-            <h2 className='text-center text-4xl font-bold my-10'>What We Do</h2>
+            <h2 className='text-center text-2xl md:text-4xl font-bold my-5 md:my-10'>What We Do</h2>
             <div className="services grid sm:grid-cols-2 md:grid-cols-3 gap-10 ">
                 <div className="service shadow-md rounded-md relative">
                     <div className="title my-2">

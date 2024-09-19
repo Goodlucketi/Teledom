@@ -2,7 +2,7 @@ const ContactUs = () => {
     return ( 
         <main className="mx-auto md:w-11/12 p-2 md:p-4">
             <div className="md:w-11/12 mx-auto my-3 p-4">
-                <div className="address my-5 shadow-md p-3 md:p-4 md:w-10/12 mx-auto text-lg">
+                <div className="address my-5 shadow-md p-3 md:p-4 md:w-10/12 mx-auto md:text-lg">
                     <h3 className="font-bold text-xl my-3">Head Office</h3>
                     <p>6A & 6B, Sule Abuka crescent Off Opebi Road, Ikeja, Lagos.</p>
                     <p>Tel: +234 815-2625-809, +234 906-5731-338, +234 701-8297-267, +234 809-5366-125</p>

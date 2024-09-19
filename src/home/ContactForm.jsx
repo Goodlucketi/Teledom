@@ -9,7 +9,7 @@ const Contact = () => {
                     <img src={contactImage } alt="contact-image" />
                 </div>
                 <div className="contact-form md:w-5/12">
-                    <h2 className='text-3xl md:text-4xl font-bold my-5 md:my-10'>Send us a Message</h2>
+                    <h2 className='text-2xl md:text-4xl font-bold my-5 md:my-10'>Send us a Message</h2>
                     <form>
                         <div className="name my-4">
                             <input type="text" name="name" id="name" placeholder="Full Name"  className="p-3 border-2 rounded-md w-full"/>
