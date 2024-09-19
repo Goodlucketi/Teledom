@@ -3,10 +3,13 @@ import SolutionsImg from "../assets/images/about22.png"
 import SolutionsTxt from "../solutions/SolutionsTxt";
 import SolnContent from "../solutions/SolnContent";
 import Footer from "../home/Footer";
+import Sidebar from "../home/Sidebar"
+
 const Solutions = () => {
     return ( 
         <main>
             <AboutHero title={'Our Solutions'} image={SolutionsImg} />
+            <Sidebar />
             <SolutionsTxt text={'Teledom International Limited is a company for ICT-based solutions. The customer would enjoy a conglomeration of services from site survey, installation, commissioning to back-up services as a matter of corporate commitment detailed out in our Technical Services Agreement (TSA). Check up the service you require from our range of solutions and give us a call.'} />
             <div className="mx-auto w-11/12 p-4 md:grid md:grid-cols-3 md:gap-10 ">
                 <SolnContent 
