@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom'
+import { useState, useEffect } from 'react';
 import Logo from '../assets/images/TeledomLogo.png'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -7,12 +7,16 @@ import CloseIcon from '@mui/icons-material/Close';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const location = useLocation()
 
     const navToggle = ()=> {
-        setIsOpen(!isOpen)
-        console.log('clicked');
-        
+        setIsOpen(!isOpen)        
     }
+
+    useEffect(()=>{
+        setIsOpen(false);
+    }, [location])
+    
     return ( 
         <header className='sticky top-0 left-0 z-20 shadow-md bg-slate-100'>
             <nav className="mx-auto w-11/12 py-2 flex justify-between items-center">
