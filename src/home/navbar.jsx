@@ -29,13 +29,13 @@ const Navbar = () => {
                 {/* Links */}
                 <div className="links p-3">
                     <ul className={`${isOpen ? ('block'): ('hidden')} navMenu w-4/6 md:w-full list-none absolute bg-slate-100 right-0 top-16 p-10 md:p-5 h-screen md:relative md:flex items-center md:h-0 md:top-0 md:bg-transparent transition-all duration-500 ease-in-out md:block`}>
-                        <li className="py-2 px-4 mx-2 my-10 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/">Home</Link> </li>
-                        <li className="py-2 px-4 mx-2 my-10 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/about">About Us</Link>  </li>
-                        <li className="py-2 px-4 mx-2 my-10 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/solutions">Solutions</Link> </li>
+                        <li className="py-2 px-4 mx-2 my-6 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/">Home</Link> </li>
+                        <li className="py-2 px-4 mx-2 my-6 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/about">About Us</Link>  </li>
+                        <li className="py-2 px-4 mx-2 my-6 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/solutions">Solutions</Link> </li>
                         {/* <li className="py-2 px-4 mx-2 my-10 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/portfolio">Port Folio</Link> </li> */}
                         {/* <li className="py-2 px-4 mx-2 my-10 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/careers">Careers</Link> </li> */}
-                        <li className="py-2 px-4 mx-2 my-10 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/client">Clientele</Link> </li>
-                        <li className="py-2 px-4 mx-2 my-10 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/contact">Contact Us</Link> </li>
+                        <li className="py-2 px-4 mx-2 my-6 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/client">Clientele</Link> </li>
+                        <li className="py-2 px-4 mx-2 my-6 font-mono text-lg text-cyan-700 hover:bg-blue-900 rounded-md hover:text-white duration-500 transition-all"><Link to="/contact">Contact Us</Link> </li>
                     </ul>
                     <div className="menu-bar md:hidden">
                         {isOpen ? (
