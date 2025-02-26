@@ -5,6 +5,7 @@ const scrollToTop = () => {
     const { pathname } = useLocation()
 
     useEffect(()=>{
+        if (pathname.startsWith('/solutions')) return
         window.scroll(0,0)
     }, [pathname])
     

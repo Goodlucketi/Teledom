@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Scroll from './scrollToTop';
 import Home from "./Pages/Home"
 import About from "./Pages/About"
@@ -13,6 +13,7 @@ import Consult from './Pages/solnDescription/Consult';
 import Software from './Pages/solnDescription/Software';
 import VideoComm from './Pages/solnDescription/VideoComm';
 import Capture from './Pages/solnDescription/Capture';
+import SolutionsNav from './Pages/solnDescription/SolutionsNav';
 
 function App() {
 
@@ -24,18 +25,21 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/solutions' element={<Solutions />} />
+        {/* <Route path='/solutions' element={<Solutions />} /> */}
         <Route path='/client' element={<Clientele />}/>
         <Route path='/contact' element={<Contact />}/>
 
         {/* Solution Routes */}
-        <Route path='/broadband' element={<Broadband />}/>
-        <Route path='/capture' element={<Capture />}/>
-        <Route path='/security' element={<Security />}/>
-        <Route path='/software' element={<Software />}/>
-        <Route path='/video' element={<VideoComm />}/>
-        <Route path='/smart' element={<Smart />}/>
-        <Route path='/consult' element={<Consult />}/>
+        <Route path='/solutions' element = {<Solutions />}>
+          <Route index element = {<SolutionsNav/>} />
+          <Route path='broadband' element={<Broadband />}/>
+          <Route path='capture' element={<Capture />}/>
+          <Route path='security' element={<Security />}/>
+          <Route path='software' element={<Software />}/>
+          <Route path='video' element={<VideoComm />}/>
+          <Route path='smart' element={<Smart />}/>
+          <Route path='consult' element={<Consult />}/>
+        </Route>
       </Routes>
     </Router>
   )

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import SocialIcons from './SocialIcons';
 const Footer = () => {
     return ( 
-        <footer className='pt-10'>
+        <footer className='pt-10 z-100'>
             <div className="w-11/12 mx-auto p-5 md:flex justify-between">
                 <div className="links my-5">
                     <h3 className="font-bold text-xl underline">Links</h3>

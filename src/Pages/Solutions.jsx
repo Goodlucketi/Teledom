@@ -1,78 +1,24 @@
 import AboutHero from "../about/AboutHero";
 import SolutionsImg from "../assets/images/about22.png"
 import SolutionsTxt from "../solutions/SolutionsTxt";
-import SolnContent from "../solutions/SolnContent";
 import Footer from "../home/Footer";
 import Sidebar from "../home/Sidebar"
+import { Outlet } from "react-router-dom";
 
 const Solutions = () => {
     return ( 
         <main>
             <AboutHero title={'Our Solutions'} image={SolutionsImg} />
-            <Sidebar />
-            <SolutionsTxt text={'Teledom International Limited is a company for ICT-based solutions. The customer would enjoy a conglomeration of services from site survey, installation, commissioning to back-up services as a matter of corporate commitment detailed out in our Technical Services Agreement (TSA). Check up the service you require from our range of solutions and give us a call.'} />
-            <div className="mx-auto w-11/12 p-4 md:grid md:grid-cols-3 md:gap-10 ">
-                <SolnContent 
-                    title={"Broadband connectivity solutions"}
-                    feature1={'Wireless Connectivity'}
-                    feature2={'Fiber optics'}
-                    feature3={'VSAT'}
-                    feature4={'LAN /MAN/WAN'}
-                    feature5={'Visible Light Systems'}
-                 />
-                 <SolnContent 
-                    title={"Video communications solutions"}
-                    feature1={'Video conferencing'}
-                    feature2={'Distance Learning'}
-                    feature3={'Telemedicine | Tele-health'}
-                    feature4={'Telepresence'}
-                 />
-                 <SolnContent 
-                    title={"Security Solutions"}
-                    feature1={'Bulk Scanning'}
-                    feature2={'IP Surveillance'}
-                    feature3={'Access Control'}
-                    feature4={'SNOS (Security Network Operation System)'}
-                    feature5={'Smart Identities cards and cord readers'}
-                    feature6={'Firegate'}
-                 />
+            <div className="flex">
+                <Sidebar />
+                <div className="solutions-content overflow-y-scroll h-screen ">
+                    <SolutionsTxt text={'Teledom International Limited is a company for ICT-based solutions. The customer would enjoy a conglomeration of services from site survey, installation, commissioning to back-up services as a matter of corporate commitment detailed out in our Technical Services Agreement (TSA). Check up the service you require from our range of solutions and give us a call.'} />
 
-                <SolnContent 
-                    title={"Identity Capture & Tracking Solution"}
-                    feature1={'Identity Recognition'}
-                    feature2={'Facial Detection'}
-                    feature3={'Personnel & Student Smart Identity System (PERIDS)'}
-                    feature4={'Smart Identification system for schools, offices and government establishments'}
-                    feature5={'Smart Identities cards and cord readers'}
-                /> 
-                <SolnContent 
-                    title={"Smart classroom solutions"}
-                    feature1={'Nursery and primary Schools'}
-                    feature2={'Secondary Schools'}
-                    feature3={'Tertiary Institutions'}
-                    feature4={'Training Centres'}
-                /> 
-                <SolnContent 
-                    title={"Software & WeB Solutions"}
-                    feature1={'Software development'}
-                    feature2={'Responsive website designs & development'}
-                    feature3={'MobileApp development for Android, Windows & iOS'}
-                /> 
-                <SolnContent 
-                    title={"Smart Solutions"}
-                    feature1={'Internet of Things (IOT)'}
-                    feature2={'Smart Homes, Buildings, Towns, Cities'}
-                    feature3={'Smart Hospitals, Campuses, Hotels'}
-                    feature4={'Smart National Security Operations'}
-                />
-                <SolnContent 
-                    title={"Consultancy Services"}
-                    feature1={'Project Management'}
-                    feature2={'Solutions Design'}
-                    feature3={'Quality Audit'}
-                    feature4={'Site Survey'}
-                />
+                    <Outlet />
+                </div>
+               
             </div>
+           
             <Footer />
         </main>
      );

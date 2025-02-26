@@ -10,7 +10,7 @@ const About = () => {
     return ( 
         <main>
             <AboutHero title={'About Us'} image={heroImage}/>
-            <Sidebar />
+            {/* <Sidebar /> */}
             <AboutText />
             <MeetCeo />
             <div className="moreInfo p-10 text-center text-white shadow-md bg-white my-10">

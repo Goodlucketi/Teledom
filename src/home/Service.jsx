@@ -7,6 +7,7 @@ import video from '../assets/images/video.jpg'
 import smartId from '../assets/images/smartId.jpeg'
 import dataCenter from '../assets/images/datacenter.jpeg'
 import snos from '../assets/images/snos_flyer.png'
+import { Link } from 'react-router-dom'
 
 const Services = () => {
     return ( 
@@ -24,7 +25,7 @@ const Services = () => {
                         <p className="font-sans text-left">
                         Our Broadband solutions comes with the capacity to simultaneously transport bandthwidth-intensive multiple data types: These includes Wireless Connectivity, Fiber optics, VSAT, LAN /MAN/WAN
                         </p>
-                        <button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button>
+                        <Link to="/broadband"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
                     </div>
                 </div>
                 <div className="service shadow-md rounded-md relative">
