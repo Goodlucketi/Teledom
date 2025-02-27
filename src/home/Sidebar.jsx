@@ -10,7 +10,7 @@ const sidebarLinks = [
 ]
 const Sidebar = () => {
     return ( 
-        <nav className="py-2 sticky top-24 bg-slate-100/90 w-6/12 h-screen">
+        <nav className="py-2 sticky top-10 bg-slate-100/90 w-4/12 h-screen">
             <div className="links p-3">
                 <ul className={`list-none pt-5 rounded-xl p-3 transition-all duration-500`}>
                     {sidebarLinks.map((link, index)=>(
