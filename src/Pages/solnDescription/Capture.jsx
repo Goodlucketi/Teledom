@@ -1,7 +1,17 @@
+import identity from "../../assets/images/identity2.jpg"
 const Capture = () => {
     return ( 
         <main className="p-4 w-11/12 mx-auto">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tenetur maiores quaerat voluptates doloremque reprehenderit iure? Aut, mollitia! Neque amet rem nostrum iure, quibusdam omnis nesciunt aspernatur quidem repellendus quod deserunt porro, ab et, hic animi quas eligendi laudantium. Nam atque dolore mollitia repudiandae est, dolorem veritatis nulla similique, impedit iste magnam dignissimos rem quibusdam dolores provident non nostrum eligendi, animi minima sunt ex nemo! Aut magni voluptate consectetur quo placeat laborum architecto eaque maxime accusantium nulla dicta officia ullam totam reprehenderit facere qui, illo iure voluptates, quidem molestias. Fugiat maiores animi magni eaque velit aspernatur ea exercitationem obcaecati quibusdam?</p>
+            <span className="font-bold block text-lg">Identity Capture and Tracking Solutions</span> 
+
+            <div className="flex items-center gap-x-10 justify-between p-4 shadow-md ">
+                <img src={identity} alt="Identity Scanner Image" />
+                <ul className="px-2 py-6 list-disc">
+                    <li className="px-3">Facial detection in adverse video conditions with poor lighting, multiple faces in frame, moving subjects, and complex backgrounds, Detection of multiple faces in a single frame, User controls for efficient search and analysis.</li>
+                    <li className="px-3">                  Personnel &amp; Student Smart Identity System (PERIDS)</li>
+                    <li className="px-3"> Smart Identification system for schools, offices and government establishments. </li>
+                </ul>
+            </div>
        </main>
      );
 }
