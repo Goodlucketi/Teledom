@@ -25,7 +25,7 @@ const Services = () => {
                         <p className="font-sans text-left">
                         Our Broadband solutions comes with the capacity to simultaneously transport bandthwidth-intensive multiple data types: These includes Wireless Connectivity, Fiber optics, VSAT, LAN /MAN/WAN
                         </p>
-                        <Link to="/broadband"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
+                        <Link to="/solutions/broadband"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
                     </div>
                 </div>
                 <div className="service shadow-md rounded-md relative">
@@ -39,7 +39,7 @@ const Services = () => {
                         <p className="font-sans text-left">
                             Facial detection via video in poor lighting conditions with multiple faces in frame, moving subjects, and complex backgrounds, Detection of multiple faces in a single frame.
                         </p>
-                        <button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button>
+                        <Link to="/solutions/capture"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
 
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Services = () => {
                         <p className="font-sans text-left">
                             Control of access to your homes, offices, factories, store houses, laboratories etc. When you install Access Control Solution, you ensure privacy, security and peace of mind. Without an Access Control System, you are insecure.
                         </p>
-                        <button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button>
+                        <Link to="/solutions/security"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
                     </div>
                 </div>
                 <div className="service shadow-md rounded-md">
@@ -68,7 +68,7 @@ const Services = () => {
                         <p className="font-sans text-left">
                             Do you know that 55% of effective communication is determined by nonverbal skills such as gestures, eye contact, posture, and even the tone of voice? Then consider how many of these non-verbal attributes and details get lost every day...
                         </p>
-                        <button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button>
+                        <Link to="/solutions/video"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
                     </div>
                 </div>
                 <div className="service shadow-md rounded-md">
@@ -82,7 +82,7 @@ const Services = () => {
                         <p className="font-sans text-left">
                             Your business is a dynamic, evolving organization, therefore your software should adapt and grow with your company as well and not remain static. We have the expertise to give you cutting-edge web & software solutions.
                         </p>
-                        <button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button>
+                        <Link to="/solutions/software"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
                     </div>
                 </div>
                 <div className="service shadow-md rounded-md">
@@ -96,7 +96,7 @@ const Services = () => {
                         <p className="font-sans text-left">
                             Today's classrooms requires a flexible set of tools to inspire extarordinary classroom experiences and improve learning outcomes. Discover how we can help you enhance whole-class, small-group and individualized learning.
                         </p>
-                        <button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button>
+                        <Link to="/solutions/smart"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
                     </div>
                 </div>
                 <div className="service shadow-md rounded-md">
@@ -110,7 +110,7 @@ const Services = () => {
                         <p className="font-sans text-left">
                             Personnel & Student Identity Card System (PERSIDS) is a robust smart identity card software solution that enables you to generate, print and encode high security, professional ID cards.
                         </p>
-                        <button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button>
+                        <Link to="/solutions/smart"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
                     </div>
                 </div>
                 <div className="service shadow-md rounded-md">
@@ -124,7 +124,7 @@ const Services = () => {
                         <p className="font-sans text-left">
                             A data centre is a dedicated space where companies can keep and operate most of the ICT infrastructure that supports their business. This would be the servers and storage.
                         </p>
-                        <button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button>
+                        <Link to="/solutions/data"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
                     </div>
                 </div>
                 <div className="service shadow-md rounded-md">
@@ -138,7 +138,7 @@ const Services = () => {
                         <p className="font-sans text-left">
                             SNOS senses and monitors wherever and whatever you want. SNOS sends you, by SMS and e-mail, the security state of your Locations of Treasure, Objects of Treasure and Points of Treasure.
                         </p>
-                        <button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button>
+                        <Link to="/solutions/snos"><button className="bg-blue-700 py-2 px-3 text-white rounded-md my-5">Learn More</button></Link>
                     </div>
                 </div>
                 
