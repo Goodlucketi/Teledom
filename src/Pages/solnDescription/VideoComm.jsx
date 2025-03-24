@@ -105,79 +105,64 @@ const VideoComm = () => {
                 </ul>
             </div>
 
-            <p>
-                <span className="font-bold block text-lg">VIDEO STREAMING</span> 
-                <div className="vsat-img">
-                    <img src="" alt="" className="w-full h-96 object-cover" />
+            <div className="shadow-md my-10">
+                <span className="font-bold block text-lg">VIDEO STREAMING</span>
+                <div className="grid grid-cols-2 justify-between gap-5">
+                    <div className="vsat-img">
+                        <img src="" alt="" className="w-full h-96 object-cover" />
+                    </div>
+                    <div className="p-4">
+                        <p>
+                            A one-way non interactive, high quality video streaming to web, embedded media players, mobile handheld devices such as Smartphones, IPADs, tablets, Etc connected to the Internet brings your;
+                        </p>
+                        <ul className="shadow-md list-decimal px-10 py-6">
+                            <li className="px-3">Local TV &amp; Radio stations</li>
+                            <li className="px-3">Ceremonies.</li>
+                            <li className="px-3">Seminars &amp; Lectures.</li>
+                            <li className="px-3">Political debates &amp; Rallies</li>
+                            <li className="px-3">Church &amp; Religious Conferences.</li>
+                        </ul> 
+                        <p>
+                            To the “village square” thus opening you to the borderless world of uncountable audience and opportunities.
+                        </p>
+                    </div>
+                </div>                   
+            </div>
+
+           
+            <div className="shadow-md my-10">
+                <span className="font-bold block text-lg">WEBINAR &amp; WEB CONFERENCING</span>
+                <div className="grid grid-cols-2 justify-between gap-5">
+                    <div className="vsat-img">
+                        <img src="" alt="" className="w-full h-96 object-cover" />
+                    </div>
+                    <p className="shadow-md p-6 text-justify">
+                        Teledom, riding on the platform of world's best Web conferencing solutions provides an Internet tool for communicating with global audiences. The presenter uses an easy-to-use screen sharing platform to set up the conference, invites the audience and communicates using a visual component, known as desktop sharing, which allows the presenter, apart from voice communication, to also show documents such as a slide presentation, a whiteboard that the presenter can write or draw on, and instant messaging with the audience all live over the Web.
+                    </p>
                 </div>
-                <p>A one-way non interactive, high quality video streaming to web, embedded media players, mobile handheld devices such as Smartphones, IPADs, tablets, Etc connected to the Internet brings your;</p>
+               
+            </div>
 
-                <ul className="shadow-md list-decimal px-10 py-6">
-                    <li className="px-3">Local TV &amp; Radio stations</li>
-                    <li className="px-3">Ceremonies.</li>
-                    <li className="px-3">Seminars &amp; Lectures.</li>
-                    <li className="px-3">Political debates &amp; Rallies</li>
-                    <li className="px-3">Church &amp; Religious Conferences.</li>
-                </ul>
-                
-                <p>To the “village square” thus opening you to the borderless world of uncountable audience and opportunities.</p>
-
-            </p>
-            <div className="grid grid-cols-2 justify-between my-10 gap-5">
-                <div className="vsat-img">
-                    <img src="" alt="" className="w-full h-96 object-cover" />
+            <div className="shadow-md my-10 p-6">
+                <span className="font-bold block text-lg">TELEMEDICINE</span>
+                <div className="grid grid-cols-2 justify-between gap-5 my-5">
+                    <div className="vsat-img">
+                        <img src="" alt="" className="w-full h-96 object-cover" />
+                    </div>
+                    <div className="shadow-md p-4 text-justify">
+                        <p>Surveys all over the world have shown that collaborative medical consultation with expert across geographically distant locations have resulted in;</p>
+                        <ul className="list-decimal px-10 py-4">
+                            <li>Increased accuracy indiagnosis and prescription</li>
+                            <li>Facilitate equitable access to specialists for all patients regardless of their location</li>
+                            <li>Enhance family satisfaction by reducing the costs and time incurred traveling outside home country</li>
+                            <li>No loss of lives via long travel times of patients to experts.</li>
+                        </ul>
+                    </div>
                 </div>
-                <ul className="shadow-md list-decimal px-10 py-6">
-                    Wireless solution can be deployed in the following places:
-                    
-                    <li className="px-3">Schools especially Universities and polytechnic</li>
-                    <li className="px-3">Banks.</li>
-                    <li className="px-3">Offshore Oil installations</li>
-                    <li className="px-3">Corporate organizations.</li>
-                    <li className="px-3">Hotel</li>
-                    <li className="px-3">Home.</li>
-                    <li className="px-3">Airports.</li>
-                    <li className="px-3">Seaports.</li>
-                    <li className="px-3">Car parks.</li>
-                    <li className="px-3">Supermarkets</li>
-                    <li className="px-3">Estates</li>
-                    <li className="px-3">Military establishments</li>
-                    <li className="px-3">Internet Service providers. E.t.c.</li>
-                </ul>
-    
-                <ul className="shadow-md list-decimal px-10 py-6">
-                    <span className="font-bold block">Deliverables/Benefits:</span>
-                    
-                    <li className="px-3">Increased capacity: - More users per node and increased throughput for each user.</li>
-                    <li className="px-3">Extended range: - Up to three times the coverage in comparison to competing solutions.</li>
-                    <li className="px-3">Uniform coverage: - Fewer dead spots and better NLOS coverage outdoors and indoors.</li>
-                    <li className="px-3">Superior indoor penetration: - Outstanding connectivity to indoor users from outdoor located base stations.</li>
-                    <li className="px-3">Increased interference resilience: - Due to the beam forming directivity and the continuous dynamic interference handling (DIH) air-link optimization.</li>
-                    <li className="px-3">Reduced latency and jitter: - Minimal number of hops between access point and backhaul.</li>
-                    <li className="px-3">Voice Communication: - This Solution provides means of setting up voice communication between offices or branches.</li>
-                    <li className="px-3">Video Communication: - Leverage the high quality broadband wireless network to provide connectivity to multiple video cameras.</li>
-                    <li className="px-3">Data Services: This solution is a means to providing services for data transmission between networks</li>
-                    <li className="px-3">Access to Internet – It s link to the Internet</li>
-                </ul>
-                <ul className="shadow-md list-decimal px-10 py-6">
-                    <span className="font-bold block">Types of Wireless Links</span>
-                                    
-                    <li className="px-3">Point to Point (PTP)Link </li>
-                    <li className="px-3">Point to Multipoint (PTMP) Link</li>
-                    <li className="px-3">Multipoint to Point (MTP) Link</li>
-                    <br />  
-                    <span className="font-bold block">Features</span>
-
-                    <li className="px-3">Highly scalable and efficient </li>
-                    <li className="px-3">It simple and easy to install and manage</li>
-                    <li className="px-3">Flexible and expandable IP base system structure</li>
-                    <li className="px-3">Simple and easy network distribution </li>
-                    <li className="px-3">Environmental  friendly</li>
-                    <li className="px-3">Self backhauling</li>
-                    <li className="px-3">Interoperable with any standard WiFi CPE in the market in the 2.4 GHz and 5.8 GHz bands</li>
-                    <li className="px-3">Coverage of a large area in a sweep</li>
-                    <li className="px-3">Ease of network growth</li>
-                </ul>
+                <div>
+                    <p>Many people have been wrongly diagnosed of illness due to lack of experience or insufficient expertise on the part of the local medical personnel. Our Telemedicine solution truly gives the solution as it helps bring on the subject experts available to support the remote medical personnel to make the right decision - <b><i>saving lives.</i></b></p>
+                    <p>Our smart medical laboratory and radiography enable remote specimen observation/examination on the microscope and remote anolipis of radiographic scan outputs. You can say virtual assemblying of experts to give the right and accurate diagnosis and even prognosis.</p>
+                </div>
             </div>
         </div>
             
