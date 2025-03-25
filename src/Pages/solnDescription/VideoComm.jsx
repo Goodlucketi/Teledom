@@ -2,7 +2,7 @@ const VideoComm = () => {
     return ( 
         <main className="p-2">
           <div className="mx-auto w-11/12 p-4">
-            <h3 className="font-bold text-2xl">VIDEO COMMUNICATION</h3>
+            <h3 className="font-bold text-2xl my-5">VIDEO COMMUNICATION</h3>
 
             <p><span className="font-bold block text-lg">VIDEO CONFERENCING</span> 
                 Do you know that 55% of effective communication is determined by nonverbal skills such as gestures, eye contact, posture, and even the tone of voice? Wow! Then consider how many of these non-verbal attributes and details get lost every day in e-mails, SMS or telephone calls.
