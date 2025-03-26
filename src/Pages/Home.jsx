@@ -1,8 +1,8 @@
-import Navbar from "../home/navbar";
+// import Navbar from "../home/navbar";
 import Hero from "../home/Hero";
 import Services from "../home/Service";
 import About from "../home/About";
-import Partners from "../home/Partners";
+// import Partners from "../home/Partners";
 import ContactForm from "../home/ContactForm";
 import Footer from "../home/Footer";
 
@@ -12,7 +12,7 @@ const Home = () => {
             <Hero />
             <Services />
             <About />
-            <Partners />
+            {/* <Partners /> */}
             <ContactForm />
             <Footer />
         </main>
